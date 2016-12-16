@@ -58,7 +58,7 @@ for (var i in names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter == 'j') {
-     window.byeSpeaker.(names[i]);
+     window.byeSpeaker.names[i]);
   } else {
      window.helloSpeaker.(names[i]);
   }
